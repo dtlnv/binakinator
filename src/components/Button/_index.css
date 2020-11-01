@@ -1,0 +1,28 @@
+.app-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.app-button button {
+    min-width: 140px;
+    -webkit-appearance: none;
+    background: #000000;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.app-button button:hover {
+    opacity: .9;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px #999;
+}
+
+.button-label {
+    margin-top: -7px;
+    font-size: 12px;
+}

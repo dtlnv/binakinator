@@ -1,0 +1,25 @@
+.firework {
+    background: #000000 url('./finish.gif') center no-repeat;
+    color: #ffffff;
+}
+
+.end-content {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.game-content strong {
+    font-weight: 700;
+}
+
+.game-step {
+    font-size: 15px;
+}
+
+.game-buttons {
+    display: flex;
+}
+
+.game-buttons .app-button {
+    margin: 0px 10px
+}
