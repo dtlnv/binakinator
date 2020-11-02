@@ -2,3 +2,16 @@
     margin-bottom: 20px;
     text-align: center;
 }
+
+.app-start input {
+    width: 80px;
+    outline: none;
+    margin-left: 10px;
+    -webkit-appearance: none;
+    border: 0px;
+    background: none;
+    border-radius: 0px;
+    border-bottom: 1px solid;
+    font-size: 18px;
+    text-align: center;
+}
