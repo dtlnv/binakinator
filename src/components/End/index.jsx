@@ -20,7 +20,7 @@ const End = ({ middle, step, resetAction }) => {
         Yeah! Your number is <strong>{middle}</strong>!
         <br />I did it in <strong>{step}</strong> steps!
       </div>
-      <Button onClick={resetAction} keyCode={13} keyLabel="enter">
+      <Button onClick={resetAction} keyCode={27} keyLabel="esc">
         Reset
       </Button>
     </div>
