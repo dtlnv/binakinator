@@ -1,5 +1,5 @@
 .game-content {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -13,6 +13,10 @@
 
 .game-buttons {
     display: flex;
+    gap: 16px;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .game-buttons .app-button {

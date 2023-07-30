@@ -8,7 +8,7 @@ const initialRange = [0, 10001];
 
 const App = () => {
   const [[min, max], setRange] = useState(initialRange);
-  const [step, setStep] = useState(0);
+  const [step, setStep] = useState(1);
   const [state, setState] = useState("start");
   const [middle, setMiddle] = useState(0);
 
@@ -30,9 +30,9 @@ const App = () => {
   };
 
   const resetAction = () => {
-    setState("start");
     setRange(initialRange);
-    setStep(0);
+    setStep(1);
+    setState("start");
   };
 
   return (

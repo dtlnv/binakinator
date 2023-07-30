@@ -1,7 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./_index.css";
 
 const Button = ({ children, keyLabel, keyCode, ...props }) => {
+  const [showKeyLabel, setShowKeyLabel] = useState(true);
+
+  useEffect(() => {
+    setShowKeyLabel(window.innerWidth > 768);
+  }, []);
+
   useEffect(() => {
     function keyClick(e) {
       if (e.keyCode === keyCode) {
@@ -21,7 +27,7 @@ const Button = ({ children, keyLabel, keyCode, ...props }) => {
   return (
     <div className="app-button">
       <button {...props}>{children}</button>
-      {keyLabel ? <span className="button-label">{keyLabel}</span> : null}
+      {showKeyLabel && keyLabel ? <span className="button-label">{keyLabel}</span> : null}
     </div>
   );
 };
