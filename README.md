@@ -9,6 +9,10 @@
   </a>
 </p>
 
+<p align="center"> 
+  <img src="preview.gif" />
+</p>
+
 ## Project description
 
 Binakinator is a simple number guessing game implemented in React.js. The game's objective is to guess a number that you secretly choose within the range of 1 to 10,000. Binakinator uses a binary search algorithm to guess the number efficiently in a maximum of 14 attempts.
@@ -22,6 +26,7 @@ Binakinator is a simple number guessing game implemented in React.js. The game's
 5. Binakinator will continue guessing until it finds your number or reaches the maximum limit of 14 attempts.
 
 ## Technology Stack
+
 - React.js.
 - HTML5.
 - CSS3.
